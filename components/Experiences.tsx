@@ -9,13 +9,20 @@ const Experiences = () => {
   const { visibleItems, observe } = useVisibility();
 
   useEffect(() => {
-    const experienceItems = document.querySelectorAll('.experience-item');
-    observe(experienceItems);
-
-    return () => {
-      observe([]); // Bersihkan observer saat unmount
-    };
+    if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+      const experienceItems = document.querySelectorAll('.experience-item');
+      if (experienceItems.length > 0) {
+        observe(experienceItems);
+      }
+  
+      return () => {
+        if (experienceItems.length > 0) {
+          observe([]); // Bersihkan observer saat unmount
+        }
+      };
+    }
   }, [observe]);
+  
 
   return (
     <div className="py-20">

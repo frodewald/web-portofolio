@@ -10,12 +10,18 @@ const RecentProject = () => {
   const { visibleItems, observe } = useVisibility();
 
   useEffect(() => {
-    const projectItems = document.querySelectorAll('.project-item');
-    observe(projectItems);
+    if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+      const projectItems = document.querySelectorAll('.project-item');
+      if (projectItems.length > 0) {
+        observe(projectItems);
+      }
 
-    return () => {
-      observe([]); // Bersihkan observer saat unmount
-    };
+      return () => {
+        if (projectItems.length > 0) {
+          observe([]); // Bersihkan observer saat unmount
+        }
+      };
+    }
   }, [observe]);
 
   return (
