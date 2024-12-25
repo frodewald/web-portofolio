@@ -1,12 +1,15 @@
-import Approach from "@/components/Approach";
-import Clients from "@/components/Clients";
-import Experiences from "@/components/Experiences";
-import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
-import RecentProject from "@/components/RecentProject";
+import dynamic from 'next/dynamic';
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
+
+// Import komponen yang memerlukan akses ke DOM hanya di sisi klien
+const Hero = dynamic(() => import('@/components/Hero'), { ssr: false });
+const Grid = dynamic(() => import('@/components/Grid'), { ssr: false });
+const RecentProject = dynamic(() => import('@/components/RecentProject'), { ssr: false });
+// const Clients = dynamic(() => import('@/components/Clients'), { ssr: false });
+const Experiences = dynamic(() => import('@/components/Experiences'), { ssr: false });
+const Approach = dynamic(() => import('@/components/Approach'), { ssr: false });
+const Footer = dynamic(() => import('@/components/Footer'), { ssr: false });
 
 export default function Home() {
   return (
