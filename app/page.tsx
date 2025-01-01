@@ -6,7 +6,7 @@ import { navItems } from "@/data";
 const Hero = dynamic(() => import('@/components/Hero'), { ssr: false });
 const Grid = dynamic(() => import('@/components/Grid'), { ssr: false });
 const RecentProject = dynamic(() => import('@/components/RecentProject'), { ssr: false });
-// const Clients = dynamic(() => import('@/components/Clients'), { ssr: false });
+const Certificates = dynamic(() => import('@/components/Certificates'), { ssr: false });
 const Experiences = dynamic(() => import('@/components/Experiences'), { ssr: false });
 const Approach = dynamic(() => import('@/components/Approach'), { ssr: false });
 const Footer = dynamic(() => import('@/components/Footer'), { ssr: false });
@@ -19,7 +19,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProject />
-        {/* <Clients /> */}
+        <Certificates />
         <Experiences />
         <Approach />
         <Footer />

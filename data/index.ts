@@ -38,11 +38,11 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "My CV",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-start",
+    titleClassName: "gap-5 items-center justify-center md:max-w-full max-w-60 text-center",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
@@ -52,7 +52,7 @@ export const gridItems = [
     title: "Currently building a JS Animation library",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "lg:col-span-2 md:col-span-3 md:row-span-1",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
@@ -136,37 +136,30 @@ export const testimonials = [
     title: "Director of AlphaStream Technologies",
   },
 ];
+export const certificates = [
+  { src: '/certificates/certif-1.png', alt: 'Certificate 1' },
+  { src: '/certificates/certif-2.png', alt: 'Certificate 2' },
+  { src: '/certificates/certif-3.png', alt: 'Certificate 3' },
+  { src: '/certificates/certif-4.png', alt: 'Certificate 4' },
+  { src: '/certificates/certif-5.png', alt: 'Certificate 5' },
+  { src: '/certificates/certif-6.png', alt: 'Certificate 6' },
+];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "dicoding",
+    img: "/dicoding.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "codepolitan",
+    img: "/codepolitan.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "google cloud",
+    img: "/google-cloud.png",
   },
 ];
 

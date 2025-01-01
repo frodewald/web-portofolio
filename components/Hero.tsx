@@ -31,7 +31,7 @@ const Hero = () => {
           <p className='md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
             &quot;Empowering Brands Through Digital Experiences.&quot;
           </p>
-          <a href="#about">
+          <a href="#about" className='md:mt-10'>
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

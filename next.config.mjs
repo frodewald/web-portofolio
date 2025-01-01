@@ -31,6 +31,8 @@ const nextConfig = {
       config.resolve.alias.three = resolve('./node_modules/three'); // Gunakan `import` dan `resolve`
     }
 
+    config.resolve.alias.canvas = false;
+
     return config;
   },
 };
