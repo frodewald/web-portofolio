@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Notes App",
+    des: "Buat Catatanmu semakin apik",
+    img: "/notes-app.png",
+    iconLists: ["/re.svg", "/sanity.svg"],
+    link: "https://notes-app-alpha-six-15.vercel.app/"
+  },
+  {
+    id: 2,
     title: "TaskHub - Solusi Cerdas untuk Manajemen Proyek Anda",
     des: "Atur, pantau, dan selesaikan proyek lebih cepat dengan alat kolaborasi modern kami. Ciptakan efisiensi dalam tim Anda, dari awal hingga akhir proyek.",
     img: "/TaskHub.png",
@@ -79,7 +87,7 @@ export const projects = [
     link: "https://frodewald.github.io/TaskHub",
   },
   {
-    id: 2,
+    id: 3,
     title: "Kasir App: Solusi Pintar untuk Bisnis Anda",
     des: "Kasir App adalah solusi cerdas untuk mengelola transaksi dan inventaris bisnis Anda dengan mudah dan efisien. Dirancang untuk usaha kecil hingga menengah, platform ini membantu meningkatkan produktivitas dan memberikan laporan keuangan yang akurat..",
     img: "/kasirku.png",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://kasir-app-bice.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Quiz App - Fun Quiz App",
     des: "Quiz App is a fun and interactive platform designed to challenge your knowledge on various topics while keeping you entertained. Whether you're playing solo or competing with friends, Quiz App offers engaging quizzes and an enjoyable way to learn!",
     img: "/quiz-app.png",
@@ -95,7 +103,7 @@ export const projects = [
     link: "https://quiz-app-client-production.up.railway.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Startupku",
     des: "Kirimkan Ide Anda, dan Dapatkan Perhatian Mata Investor.",
     img: "/startupku.png",
