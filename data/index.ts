@@ -115,7 +115,8 @@ export const projects = [
     title: "Webstore",
     des: "Tempat belanja yang aman dan terpercaya.",
     img: "/webstore.png",
-    iconLists: ["/vue.svg", "/mongodb.svg", "/express.svg", "/nodejs.svg"]
+    iconLists: ["/vue.svg", "/mongodb.svg", "/express.svg", "/nodejs.svg"],
+    link: "https://webstore-hlms.onrender.com/",
   }
 ];
 
