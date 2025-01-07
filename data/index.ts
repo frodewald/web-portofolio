@@ -110,6 +110,13 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/sanity.svg", "/lucide.png"],
     link: "https://startupku.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Webstore",
+    des: "Tempat belanja yang aman dan terpercaya.",
+    img: "/webstore.png",
+    iconLists: ["/vue.svg", "/mongodb.svg", "/express.svg", "/nodejs.svg"]
+  }
 ];
 
 export const testimonials = [
