@@ -100,7 +100,7 @@ export const projects = [
     des: "Quiz App is a fun and interactive platform designed to challenge your knowledge on various topics while keeping you entertained. Whether you're playing solo or competing with friends, Quiz App offers engaging quizzes and an enjoyable way to learn!",
     img: "/quiz-app.png",
     iconLists: ["/mongodb.svg", "/express.svg", "/re.svg", "/nodejs.svg", "/bootstrap.svg"],
-    link: "https://quiz-app-client-production.up.railway.app/",
+    link: "https://quiz-app-client-w43b.onrender.com/",
   },
   {
     id: 5,
